@@ -1,8 +1,13 @@
 # DataAnalytics
+This folder contains several data-related projects I did the last year. Note that this folder is work in progress as I wrote all my scripts in Spyder and would like to covert them to Jupyter for visualisation and presentation purposes. The reason I code in spyder is purely for efficiently reasons - unit testing and coding itself is much more practicle in Spyder for me.
 
-Dear visitor,
+## Content
+Below the most important topics I have worked on are listed together with the required Python tooling. The current Python version I am working with is 3.7.
+*General tools: Spyder, Jupyter, Numpy, Pandas, Matplotlib*
+#### Machine Learning
 
-This folder contains several data-related projects I did the last year. Note that this folder is work in progress as I wrote all my scripts in Spyder and would like to covert them to Jupyter for visualisation and presentation purposes. 
+*Tools*
+#### 
 
 
 

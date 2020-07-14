@@ -2,7 +2,13 @@
 
 Dear visitor,
 
-This folder contains several data-related projects I did the last year. Note that this folder is work in progress as I wrote all my scripts in Spyder and would like to covert them to Jupyter for visualisation purposes. 
+This folder contains several data-related projects I did the last year. Note that this folder is work in progress as I wrote all my scripts in Spyder and would like to covert them to Jupyter for visualisation and presentation purposes. 
+
+
+
+
+
+
 
 These projects were fully volotarily and purely done because of my interest and curiosity. The knowledge required to complete these courses was gathered by means of several resources:
 

@@ -3,6 +3,7 @@ This folder contains several data-related projects I did the last year. Note tha
 
 ## Content
 Below the most important topics I have worked on are listed together with the required Python tooling. The current Python version I am working with is 3.7.
+
 *General tools: Spyder, Jupyter, Numpy, Pandas, Matplotlib*
 #### Machine Learning
 

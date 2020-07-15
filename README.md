@@ -6,7 +6,7 @@ Below the most important topics I have worked on are listed together with the re
 
 *General tools: Spyder, Jupyter, Numpy, Pandas, Matplotlib*
 ### Machine Learning
-[**Bank stocks: The Financial crisis versus COVID**](https://github.com/RHAALiebrand/DataAnalytics/blob/master/Bank%20Stocks_FC%20vs%20COVID%20-%20Gathering%2C%20visualisation%2C%20and%20analysis/Bank_Stocks_FC_COVID.ipynb): A supervised learning model utilising to analyse the recovery rate in the of EU and US banks stocks in the COVID crisis relative and the Financial Crisis. Furthermore, the predictability of the banks stocks was determined by using:
+[**Bank stocks: The Financial crisis versus COVID**](https://github.com/RHAALiebrand/DataAnalytics/blob/master/Bank%20Stocks%20FC%20vs%20COVID%20-%20API%2C%20visualisation%2C%20and%20supervised%20learning/Bank_Stocks_FC_COVID.ipynb): A supervised learning model utilising to analyse the recovery rate in the of EU and US banks stocks in the COVID crisis relative and the Financial Crisis. Furthermore, the predictability of the banks stocks was determined by using:
    - Linear regression
    - Epsilon-Support Vector Regression
    - Epsilon-Support Vector Regression in combination with a grid search algorithm
@@ -19,7 +19,7 @@ Below the most important topics I have worked on are listed together with the re
 *Tools: Scikit, Seaborn, Datetime, Pyplot + Cufflinks (interactive plotting), Pipeline*
 
 ### Web-scraping
-[**API Stock reader**](https://github.com/RHAALiebrand/DataAnalytics/blob/master/Bank%20Stocks_FC%20vs%20COVID%20-%20API%2C%20visualisation%2C%20and%20supervised%20learning/API_Stock_Reader.ipynb): This data reader utilises API tools to acquire stock data from https://www.alphavantage.co/. The code reads the data for six large banks:
+[**API Stock reader**](https://github.com/RHAALiebrand/DataAnalytics/blob/master/Bank%20Stocks%20FC%20vs%20COVID%20-%20API%2C%20visualisation%2C%20and%20supervised%20learning/API_Stock_Reader.ipynb): This data reader utilises API tools to acquire stock data from https://www.alphavantage.co/. The code reads the data for six large banks:
 
 *European*
 1. ING, Dutch (Rabobank is not AEX-listed)

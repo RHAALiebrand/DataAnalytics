@@ -16,7 +16,7 @@ Below the most important topics I have worked on are listed together with the re
    - Supported Vector Machines
    - Naive Bayes
    
-*Tools: Scikit, Seaborn, Datetime, Pyplot + Cufflinks (interactive plotting), Pipeline*
+*Tools: Scikit, Seaborn, Datetime, Pipeline*
 
 ### Web-scraping
 [**API Stock reader**](https://github.com/RHAALiebrand/DataAnalytics/blob/master/Bank%20Stocks%20FC%20vs%20COVID%20-%20API%2C%20visualisation%2C%20and%20supervised%20learning/API_Stock_Reader.ipynb): This data reader utilises API tools to acquire stock data from https://www.alphavantage.co/. The code reads the data for six large banks:
@@ -55,9 +55,11 @@ The latter is used to deteremine product similarity in the earbuds project.
 *Tools: CountVectorizer, NLTK, Tfidf*
 
 ### Analysis and visualisation
+[**Bank stocks: The Financial crisis versus COVID**](https://github.com/RHAALiebrand/DataAnalytics/blob/master/Bank%20Stocks%20FC%20vs%20COVID%20-%20API%2C%20visualisation%2C%20and%20supervised%20learning/Bank_Stocks_FC_COVID.ipynb): Time series of stock data are plotted and analysed using Matplotlib and Seaborn. Sample plots are, line, box, heatmaps, pair, histograms, scatter, kde, correlations maps. Furthermore, interactive plotting by means of Pyplot in combinations with Cufflinks is esthablished. 
 
+[**911 Calls: What, why, and where**](https://github.com/RHAALiebrand/DataAnalytics/blob/master/Bank%20Stocks%20FC%20vs%20COVID%20-%20API%2C%20visualisation%2C%20and%20supervised%20learning/Bank_Stocks_FC_COVID.ipynb): The 911 calls in Montgomery County are analysed by means of visualisation. Geographical and reason dependent visualisation were the main topics. To create geographical maps, basemap was employed. Ideally I was aiming to create some choropleth maps, however, the considered area was to small for these. I will do this for another project.
 
-
+ *Tools: Pyplot,Cufflinks, Basemap*
 
 
 

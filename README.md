@@ -1,11 +1,11 @@
 # DataAnalytics
-This folder contains several data-related projects I did the last year. Note that this folder is work in progress as I wrote all my scripts in Spyder and would like to covert them to Jupyter for visualisation and presentation purposes. The reason I code in spyder is purely for efficiently reasons - unit testing and coding itself is much more practicle in Spyder for me.
+This folder contains several data-related projects I worked on or currently working on. Note that this folder is work in progress as I wrote all my scripts in Spyder and would like to covert them to Jupyter for visualisation and presentation purposes. The reason I code in spyder is purely for efficiently reasons - unit testing and coding itself is much more practicle in Spyder for me.
 
 ## Content
 Below the most important topics I have worked on are listed together with the required Python tooling. The current Python version I am working with is 3.7.
 
 *General tools: Spyder, Jupyter, Numpy, Pandas, Matplotlib*
-#### Machine Learning
+### Machine Learning
 [**Bank stocks: The Financial crisis versus COVID**](https://github.com/RHAALiebrand/DataAnalytics/blob/master/Bank%20Stocks_FC%20vs%20COVID%20-%20Gathering%2C%20visualisation%2C%20and%20analysis/Bank_Stocks_FC_COVID.ipynb): A supervised learning model utilising to analyse the recovery rate in the of EU and US banks stocks in the COVID crisis relative and the Financial Crisis. Furthermore, the predictability of the banks stocks was determined by using:
    - Linear regression
    - Epsilon-Support Vector Regression
@@ -18,8 +18,18 @@ Below the most important topics I have worked on are listed together with the re
    
 *Tools: Scikit, Seaborn, Datetime, Pyplot + Cufflinks (interactive plotting), Pipeline*
 
-#### Web-scraping
-[**CoolBlue websraping tool**](https://github.com/RHAALiebrand/DataAnalytics/blob/master/Earsbuds%20Market%20Bol%20vs%20Coolblue%20-%20Scraping%2C%20cleaning%2C%20and%20analysis/WebScrape_CoolBlue.ipynb) 
+### Web-scraping
+[**API Stock reader**](https://github.com/RHAALiebrand/DataAnalytics/blob/master/Bank%20Stocks_FC%20vs%20COVID%20-%20API%2C%20visualisation%2C%20and%20supervised%20learning/API_Stock_Reader.ipynb): This data reader utilises API tools to acquire stock data from https://www.alphavantage.co/. The code reads the data for six large banks:
+
+*European*
+1. ING, Dutch (Rabobank is not AEX-listed)
+2. Deutsche Bank, German
+3. HSBC, English
+
+*American*
+1. CitiGroup
+2. Goldman Sachs
+3. JPMorgan Chase
 
 [**CoolBlue websraping tool**](https://github.com/RHAALiebrand/DataAnalytics/blob/master/Earsbuds%20Market%20Bol%20vs%20Coolblue%20-%20Scraping%2C%20cleaning%2C%20and%20analysis/WebScrape_CoolBlue.ipynb) + [**Bol websraping tool**](https://github.com/RHAALiebrand/DataAnalytics/blob/master/Earsbuds%20Market%20Bol%20vs%20Coolblue%20-%20Scraping%2C%20cleaning%2C%20and%20analysis/WebScrape_Bol.ipynb): These codes extract all information of the offered earbuds on Bol and CoolBlue. Extracted information includes:
  - Manufacturer
@@ -30,25 +40,43 @@ Below the most important topics I have worked on are listed together with the re
  - Rating
  - Reviews
 The eventual dataframes were saved and read by other parts of the code to analyse it.
-*Tools: BeautifulSoup, Requests, *
-#### Natural Language Processing
+*Tools: Pandas data-reader, BeautifulSoup, Requests*
 
-#### Analysis and visualisation
+### Natural Language Processing
+[**Levenshtein calculator**](https://github.com/RHAALiebrand/DataAnalytics/blob/master/Earsbuds%20Market%20Bol%20vs%20Coolblue%20-%20Scraping%2C%20cleaning%2C%20and%20analysis/WebScrape_CoolBlue.ipynb): An NLP technique to calculate the similarity of two strings. The algorithm deterimes:
+1. The 'distance' of the strings, i.e. how many changes are needed to convert them
+2. The Levenshtein ratio, which is a measure how similar they are based on the distance and original string metrics
+The latter is used to deteremine product similarity in the earbuds project. 
+
+[**Earbuds market: Bol versus CoolBlue**](https://github.com/RHAALiebrand/DataAnalytics/blob/master/Earsbuds%20Market%20Bol%20vs%20Coolblue%20-%20Scraping%2C%20cleaning%2C%20and%20analysis/Earbuds_Market_Bol_vs_CoolBlue.ipynb): In this project the Levenshtein calculator is employed to match product for both websites and create a price comparison. All text is first pre-processed and cleaned to make predictions as accurate as possible. Furthermore, the TDI-FD technique is employed to convert product descriptions and reviews in . Pipelines are used to make the script most efficient. A general pipeline is build as:
+1. Text vectorizer
+2. Vector scaler / normaliser
+3. Predictive model, in this case a classifier
+*Tools: CountVectorizer, NLTK, Tfidf*
+
+### Analysis and visualisation
 
 
 
 
 
 
-
+## Educational Background and Contact
 These projects were fully volotarily and purely done because of my interest and curiosity. The knowledge required to complete these courses was gathered by means of several resources:
 
-1. Recent TU Delft courses list item
+1. Recent TU Delft courses provided by the [Interative Intelligence of TU Delft's math faculty (EWI)](https://www.tudelft.nl/ewi/over-de-faculteit/afdelingen/intelligent-systems/interactive-intelligence/) 
+   - [Machine Learning 1](https://studiegids.tudelft.nl/a101_displayCourse.do?course_id=51391)
+   - [Machine Learning 2](https://studiegids.tudelft.nl/a101_displayCourse.do?course_id=51392) 
+   - [Deep Learning](https://studiegids.tudelft.nl/a101_displayCourse.do?course_id=51998) 
 2. Books such as
    - An Introduction to Statistical Learning by Gareth James
    - Data Science from Scratch by Joel Grus
    - Data Science for Business What you need to know about data mining and data-analytic thinking by Foster Provost
 3. Courses provided by Udemy and Coursera
 
-All required math and statistics was of course already present due to my background in aerospace engineering. Further, my first programming language is Python and was taught in my first year at TU Delft. I expended this by learning Matlab, R, and STATA. Besides, I have experience in object oriented languages (C++ and Fortran) due to my internships. 
+All required math and statistics was of course already present due to my background in aerospace engineering. Further, my first programming language is Python and was taught in my first year at Delft University of Technology. I expended this by learning Matlab, R, and STATA. Besides, I have experience in object oriented languages (C++ and Fortran) due to my internships. 
+
+If you have any questions or comments still, please do not hesitate to contact me as I am happy to share my experience / codes.
+- rensliebrand@gmail.com
+- [LinkedIn](https://www.linkedin.com/in/rensliebrand/) 
 

@@ -7,14 +7,14 @@ Below the most important topics I have worked on are listed together with the re
 *General tools: Spyder, Jupyter, Numpy, Pandas, Matplotlib*
 ### Machine Learning
 [**Bank stocks: The Financial crisis versus COVID**](https://github.com/RHAALiebrand/DataAnalytics/blob/master/Bank%20Stocks%20FC%20vs%20COVID%20-%20API%2C%20visualisation%2C%20and%20supervised%20learning/Bank_Stocks_FC_COVID.ipynb): A supervised learning model utilising to analyse the recovery rate in the of EU and US banks stocks in the COVID crisis relative and the Financial Crisis. Furthermore, the predictability of the banks stocks was determined by using:
-   - Linear regression
-   - Epsilon-Support Vector Regression
-   - Epsilon-Support Vector Regression in combination with a grid search algorithm
+1. Linear regression
+2. Epsilon-Support Vector Regression
+3. Epsilon-Support Vector Regression in combination with a grid search algorithm
 
 [**Earbuds market: Bol versus CoolBlue**](https://github.com/RHAALiebrand/DataAnalytics/blob/master/Earsbuds%20Market%20Bol%20vs%20Coolblue%20-%20Scraping%2C%20cleaning%2C%20and%20analysis/Earbuds_Market_Bol_vs_CoolBlue.ipynb): A supervised learning model which predicts the total customer product rating based on the product description - it also extract product features which seem to be important to customers. As an extention, the same algorithms were trained on a much larger, but less consitent data-set: individual customer review with corresponding customer rating. Results are very much supprising and this project uncovers the need for reliable data. Since I approached this as a classification task, the employed algorithms are:
-   - Logistic Regression
-   - Supported Vector Machines
-   - Naive Bayes
+1. Logistic Regression
+2. Supported Vector Machines
+3. Naive Bayes
    
 *Tools: Scikit, Seaborn, Datetime, Pipeline*
 
@@ -32,13 +32,14 @@ Below the most important topics I have worked on are listed together with the re
 3. JPMorgan Chase
 
 [**CoolBlue websraping tool**](https://github.com/RHAALiebrand/DataAnalytics/blob/master/Earsbuds%20Market%20Bol%20vs%20Coolblue%20-%20Scraping%2C%20cleaning%2C%20and%20analysis/WebScrape_CoolBlue.ipynb) + [**Bol websraping tool**](https://github.com/RHAALiebrand/DataAnalytics/blob/master/Earsbuds%20Market%20Bol%20vs%20Coolblue%20-%20Scraping%2C%20cleaning%2C%20and%20analysis/WebScrape_Bol.ipynb): These codes extract all information of the offered earbuds on Bol and CoolBlue. Extracted information includes:
- - Manufacturer
- - Product Name
- - Price (Current, Retail, and discount)
- - Pros and Cons
- - Description
- - Rating
- - Reviews
+1. Manufacturer
+2. Product Name
+3. Price (Current, Retail, and discount)
+4. Pros and Cons
+5. Description
+6. Rating
+7. Reviews
+ 
 The eventual dataframes were saved and read by other parts of the code to analyse it.
 *Tools: Pandas data-reader, BeautifulSoup, Requests*
 
@@ -61,13 +62,11 @@ The latter is used to deteremine product similarity in the earbuds project.
 
 [**Customer outlier detection**](http://localhost:8888/notebooks/Desktop/PYTHON_FOR_DATA_SCIENCE/Projects/Groceries%20Customer%20Segments/Outlier_Detection.ipynb): This program identifies and removes the outliers from a given data-set. Four different algorithms are implemented and tested:
 *Self implemented*
-1. [Tukey's method](https://sphweb.bumc.bu.edu/otlt/mph-modules/bs/bs704_summarizingdata/bs704_summarizingdata7.html) - also known as the IQR method. The Tukey’s method defines an outlier as those values of the data set that fall far from the central point, the median. One can think of plotting a boxplot and then find an outlier.
-2. [Z-Scores](https://support.hach.com/ci/okcsFattach/get/1008007_4) Z-scores are a tool for determining outlying data based on data locations on graphs. Z-scores base this information on data distribution and using the standard deviation measurements of data to calculate outlier under the understanding that about 68% of measurements will be within one standard deviation of the mean and about 95% of measurements will be within two standard deviations of the mean.
-
+1. [Tukey's method](https://sphweb.bumc.bu.edu/otlt/mph-modules/bs/bs704_summarizingdata/bs704_summarizingdata7.html) 
+2. [Z-Scores](https://support.hach.com/ci/okcsFattach/get/1008007_4) 
 *Sci-kit*
-1. [Isolation Forest](https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.IsolationForest.html) Isolation forest is an unsupervised learning algorithm for anomaly detection that works on the principle of isolating anomalies. The main advantage of this approach is the possibility of exploiting sampling techniques to an extent that is not allowed to the profile-based methods, creating a very fast algorithm with a low memory demand.
-2. [Elliptic Envelope](https://scikit-learn.org/stable/modules/generated/sklearn.covariance.EllipticEnvelope.html)The Elliptic Envelope method fits a multivariate gaussian distribution to the dataset. Use the contamination hyperparameter to specify the percentage of observations the algorithm will assign as outliers.
-
+1. [Isolation Forest](https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.IsolationForest.html) 
+2. [Elliptic Envelope](https://scikit-learn.org/stable/modules/generated/sklearn.covariance.EllipticEnvelope.html)
 
  *Tools: Pyplot,Cufflinks, Basemap, IsolationForest, EllipticEnvelope*
 

@@ -1,1 +1,8 @@
-Test
+[**Customer outlier detection**](http://localhost:8888/notebooks/Desktop/PYTHON_FOR_DATA_SCIENCE/Projects/Groceries%20Customer%20Segments/Outlier_Detection.ipynb): This program identifies and removes the outliers from a given data-set. Four different algorithms are implemented and tested:
+*Self implemented*
+1. [Tukey's method](https://sphweb.bumc.bu.edu/otlt/mph-modules/bs/bs704_summarizingdata/bs704_summarizingdata7.html) - also known as the IQR method. The Tukey’s method defines an outlier as those values of the data set that fall far from the central point, the median. One can think of plotting a boxplot and then find an outlier.
+2. [Z-Scores](https://support.hach.com/ci/okcsFattach/get/1008007_4) Z-scores are a tool for determining outlying data based on data locations on graphs. Z-scores base this information on data distribution and using the standard deviation measurements of data to calculate outlier under the understanding that about 68% of measurements will be within one standard deviation of the mean and about 95% of measurements will be within two standard deviations of the mean.
+
+*Sci-kit*
+1. [Isolation Forest](https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.IsolationForest.html) Isolation forest is an unsupervised learning algorithm for anomaly detection that works on the principle of isolating anomalies. The main advantage of this approach is the possibility of exploiting sampling techniques to an extent that is not allowed to the profile-based methods, creating a very fast algorithm with a low memory demand.
+2. [Elliptic Envelope](https://scikit-learn.org/stable/modules/generated/sklearn.covariance.EllipticEnvelope.html)The Elliptic Envelope method fits a multivariate gaussian distribution to the dataset. Use the contamination hyperparameter to specify the percentage of observations the algorithm will assign as outliers.

@@ -54,12 +54,22 @@ The latter is used to deteremine product similarity in the earbuds project.
 3. Predictive model, in this case a classifier
 *Tools: CountVectorizer, NLTK, Tfidf*
 
-### Analysis and visualisation
+### Preprocessing, Analysis and visualisation
 [**Bank stocks: The Financial crisis versus COVID**](https://github.com/RHAALiebrand/DataAnalytics/blob/master/Bank%20Stocks%20FC%20vs%20COVID%20-%20API%2C%20visualisation%2C%20and%20supervised%20learning/Bank_Stocks_FC_COVID.ipynb): Time series of stock data are plotted and analysed using Matplotlib and Seaborn. Sample plots are, line, box, heatmaps, pair, histograms, scatter, kde, correlations maps. Furthermore, interactive plotting by means of Pyplot in combinations with Cufflinks is esthablished. 
 
 [**911 Calls: What, why, and where**](https://github.com/RHAALiebrand/DataAnalytics/blob/master/Bank%20Stocks%20FC%20vs%20COVID%20-%20API%2C%20visualisation%2C%20and%20supervised%20learning/Bank_Stocks_FC_COVID.ipynb): The 911 calls in Montgomery County are analysed by means of visualisation. Geographical and reason dependent visualisation were the main topics. To create geographical maps, basemap was employed. Ideally I was aiming to create some choropleth maps, however, the considered area was to small for these. I will do this for another project.
 
- *Tools: Pyplot,Cufflinks, Basemap*
+[**Customer outlier detection**](http://localhost:8888/notebooks/Desktop/PYTHON_FOR_DATA_SCIENCE/Projects/Groceries%20Customer%20Segments/Outlier_Detection.ipynb): This program identifies and removes the outliers from a given data-set. Four different algorithms are implemented and tested:
+*Self implemented*
+1. [Tukey's method](https://sphweb.bumc.bu.edu/otlt/mph-modules/bs/bs704_summarizingdata/bs704_summarizingdata7.html) - also known as the IQR method. The Tukey’s method defines an outlier as those values of the data set that fall far from the central point, the median. One can think of plotting a boxplot and then find an outlier.
+2. [Z-Scores](https://support.hach.com/ci/okcsFattach/get/1008007_4) Z-scores are a tool for determining outlying data based on data locations on graphs. Z-scores base this information on data distribution and using the standard deviation measurements of data to calculate outlier under the understanding that about 68% of measurements will be within one standard deviation of the mean and about 95% of measurements will be within two standard deviations of the mean.
+
+*Sci-kit*
+1. [Isolation Forest](https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.IsolationForest.html) Isolation forest is an unsupervised learning algorithm for anomaly detection that works on the principle of isolating anomalies. The main advantage of this approach is the possibility of exploiting sampling techniques to an extent that is not allowed to the profile-based methods, creating a very fast algorithm with a low memory demand.
+2. [Elliptic Envelope](https://scikit-learn.org/stable/modules/generated/sklearn.covariance.EllipticEnvelope.html)The Elliptic Envelope method fits a multivariate gaussian distribution to the dataset. Use the contamination hyperparameter to specify the percentage of observations the algorithm will assign as outliers.
+
+
+ *Tools: Pyplot,Cufflinks, Basemap, IsolationForest, EllipticEnvelope*
 
 
 

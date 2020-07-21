@@ -15,7 +15,11 @@ Below the most important topics I have worked on are listed together with the re
 1. Logistic Regression
 2. Supported Vector Machines
 3. Naive Bayes
-   
+ 
+ [**Earbuds market: Bol versus CoolBlue**](https://github.com/RHAALiebrand/DataAnalytics/blob/master/Earsbuds%20Market%20Bol%20vs%20Coolblue%20-%20Scraping%2C%20cleaning%2C%20and%20analysis/Earbuds_Market_Bol_vs_CoolBlue.ipynb): An unsupervised learning model which attempts to identify customer categories within an annual wholesale spending dataset. Data scaling is compared, logarithmic vs boxcox. Further, outliers are removed by means of [several methods](http://localhost:8888/notebooks/Desktop/PYTHON_FOR_DATA_SCIENCE/Projects/Groceries%20Customer%20Segments/Outlier_Detection.ipynb). A PCA is applied to reduce the dimensionality to an explained variance of 70 and 90% respectively, for visualisation purposes:
+ 
+ <img src="https://github.com/RHAALiebrand/DataAnalytics/blob/master/Groceries%20Customer%20Segments%20-%20Feature%20Engineering%2C%20PCA%2C%20and%20unsupervised%20learning/Figures/Clusters_3_GM.png" alt="Clusters" width="400"/>
+  
 *Tools: Scikit, Seaborn, Datetime, Pipeline*
 
 ### Web-scraping
@@ -75,7 +79,7 @@ The latter is used to deteremine product similarity in the earbuds project.
 [**Customer Principle Component Analysis (PCA)**](https://github.com/RHAALiebrand/DataAnalytics/blob/master/Groceries%20Customer%20Segments%20-%20Feature%20Engineering%2C%20PCA%2C%20and%20unsupervised%20learning/Customer_Principle%20Components_Analysis.ipynb) In this piece, PCA is applied on log and boxcox scaled data to identify the differences. A dimensionality reduction from 6 to 2 and 3, to respectively achieve a explained variance of 70% and 90%:
 <img src="https://github.com/RHAALiebrand/DataAnalytics/blob/master/Groceries%20Customer%20Segments%20-%20Feature%20Engineering%2C%20PCA%2C%20and%20unsupervised%20learning/Figures/PCA_dist_log.png" alt="Explained Variance" width="600"/>
 
- *Tools: Pyplot,Cufflinks, Basemap, IsolationForest, EllipticEnvelope*
+ *Tools: Pyplot,Cufflinks, Basemap, IsolationForest, EllipticEnvelope, PCA, 3DAxes *
 
 
 

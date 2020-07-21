@@ -64,9 +64,13 @@ The latter is used to deteremine product similarity in the earbuds project.
 *Self implemented*
 1. [Tukey's method](https://sphweb.bumc.bu.edu/otlt/mph-modules/bs/bs704_summarizingdata/bs704_summarizingdata7.html) 
 2. [Z-Scores](https://support.hach.com/ci/okcsFattach/get/1008007_4) 
+
 *Sci-kit*
 1. [Isolation Forest](https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.IsolationForest.html) 
 2. [Elliptic Envelope](https://scikit-learn.org/stable/modules/generated/sklearn.covariance.EllipticEnvelope.html)
+
+[**Customer Principle Component Analysis (PCA)**](https://github.com/RHAALiebrand/DataAnalytics/blob/master/Groceries%20Customer%20Segments%20-%20Feature%20Engineering%2C%20PCA%2C%20and%20unsupervised%20learning/Customer_Principle%20Components_Analysis.ipynb) In this piece, PCA is applied on log and boxcox scaled data to identify the differences. A dimensionality reduction from 6 to 2 and 3, to respectively achieve a explained variance of 70% and 90%:
+<img src="https://github.com/RHAALiebrand/DataAnalytics/blob/master/Groceries%20Customer%20Segments%20-%20Feature%20Engineering%2C%20PCA%2C%20and%20unsupervised%20learning/Figures/PCA_dist_log.png" alt="Explained Variance" width="600"/>
 
  *Tools: Pyplot,Cufflinks, Basemap, IsolationForest, EllipticEnvelope*
 

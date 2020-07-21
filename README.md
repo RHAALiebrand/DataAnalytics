@@ -11,6 +11,9 @@ Below the most important topics I have worked on are listed together with the re
 2. Epsilon-Support Vector Regression
 3. Epsilon-Support Vector Regression in combination with a grid search algorithm
 
+This resulted in remarkable observations which can be valuable to investors. Preditability and recovery are summarized in this figure:
+ <img src="https://github.com/RHAALiebrand/DataAnalytics/blob/master/Bank%20Stocks%20FC%20vs%20COVID%20-%20API%2C%20visualisation%2C%20and%20supervised%20learning/Figures/KDE_FC_COVID.png" alt="KDE COVID FC" width="600"/>
+
 [**Earbuds market: Bol versus CoolBlue**](https://github.com/RHAALiebrand/DataAnalytics/blob/master/Earsbuds%20Market%20Bol%20vs%20Coolblue%20-%20Scraping%2C%20cleaning%2C%20and%20analysis/Earbuds_Market_Bol_vs_CoolBlue.ipynb): A supervised learning model which predicts the total customer product rating based on the product description - it also extract product features which seem to be important to customers. As an extention, the same algorithms were trained on a much larger, but less consitent data-set: individual customer review with corresponding customer rating. Results are very much supprising and this project uncovers the need for reliable data. Since I approached this as a classification task, the employed algorithms are:
 1. Logistic Regression
 2. Supported Vector Machines

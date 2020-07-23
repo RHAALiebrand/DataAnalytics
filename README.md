@@ -19,10 +19,14 @@ This resulted in remarkable observations which can be valuable to investors. Pre
 2. Supported Vector Machines
 3. Naive Bayes
  
- [**Earbuds market: Bol versus CoolBlue**](https://github.com/RHAALiebrand/DataAnalytics/blob/master/Earsbuds%20Market%20Bol%20vs%20Coolblue%20-%20Scraping%2C%20cleaning%2C%20and%20analysis/Earbuds_Market_Bol_vs_CoolBlue.ipynb): An unsupervised learning model which attempts to identify customer categories within an annual wholesale spending dataset. Data scaling is compared, logarithmic vs boxcox. Further, outliers are removed by means of [several methods](http://localhost:8888/notebooks/Desktop/PYTHON_FOR_DATA_SCIENCE/Projects/Groceries%20Customer%20Segments/Outlier_Detection.ipynb). A PCA is applied to reduce the dimensionality to an explained variance of 70 and 90% respectively, for visualisation purposes:
+ [**Groceries: Customer Segments**](https://github.com/RHAALiebrand/DataAnalytics/blob/master/Groceries%20Customer%20Segments%20-%20Feature%20Engineering%2C%20PCA%2C%20and%20unsupervised%20learning/Groceries_Customer_Segments.ipynb): Two unsupervised learning models,
+1. KMeans Clustering,
+2. Gaussian Mixture Clustering,
+
+are created which attempts to identify customer categories within an annual wholesale spending dataset. Data scaling is compared, logarithmic vs boxcox. Further, outliers are removed by means of [several methods](http://localhost:8888/notebooks/Desktop/PYTHON_FOR_DATA_SCIENCE/Projects/Groceries%20Customer%20Segments/Outlier_Detection.ipynb). A PCA is applied to reduce the dimensionality to an explained variance of 70 and 90% respectively, for visualisation purposes:
  
  <img src="https://github.com/RHAALiebrand/DataAnalytics/blob/master/Groceries%20Customer%20Segments%20-%20Feature%20Engineering%2C%20PCA%2C%20and%20unsupervised%20learning/Figures/Clusters_3_GM.png" alt="Clusters" width="400"/>
-  
+
 *Tools: Scikit, Seaborn, Datetime, Pipeline*
 
 ### Web-scraping
